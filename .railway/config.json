@@ -1,0 +1,9 @@
+{
+  "deploy": {
+    "startCommand": "docker-compose up -d",
+    "healthcheckPath": "/",
+    "restartPolicy": {
+      "type": "always"
+    }
+  }
+}
